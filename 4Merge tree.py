@@ -5,3 +5,4 @@ class Solution(object):
         ans.left = self.mergeTrees(t1 and t1.left, t2 and t2.left)
         ans.right = self.mergeTrees(t1 and t1.right, t2 and t2.right)
         return ans
+    
