@@ -22,3 +22,11 @@ class SolutionClassic(object):
             j -= 1
 
         return "".join(r)
+    #################################################################################reverse the word within the string
+    class Solution(object):
+    def reverseWords(self, s):
+        return " ".join(map(lambda x: x[::-1], s.split()))
+        									#s.split()means to treat each word as a whole instead of treated each alphabete individually
+        					#lambda x:x[::-1] =like a calculation function to apply all the element after the , x[::-1] means to reverse the thing after ,
+        				# map means apply the function to the thing after,
+        		#" ".join means make all isolate words into one sentence
